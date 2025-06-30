@@ -220,7 +220,6 @@
 <gazebo>
     <plugin filename="libThermalPlugin.so" name="spacestation::ThermalPlugin"/>
 </gazebo>
-
  <!-- Thruster Plugins -->
   <gazebo>
     <plugin filename="gz-sim-thruster-system" name="gz::sim::systems::Thruster">
@@ -568,6 +567,8 @@
       <gz_frame_id>base_link</gz_frame_id>
     </sensor>
   </gazebo>
+
+
 
 
 
